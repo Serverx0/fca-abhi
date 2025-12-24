@@ -303,8 +303,8 @@ async function loginHelper(appState, apiCustomized, callback) {
       utils.warn(botInitialData.error);
       utils.warn(`WARNING: Failed to fetch account info. Proceeding to log in for user ${userID}`);
     }
-    utils.log(" YOUR BOT FIXED BY MR MAFIYA XWD 💀 ");
-    utils.log(" To check updates: you may check on https://github.com/Mafiyahunter/fca-mafiya");
+    utils.log(" YOUR BOT FIXED BY MR ABHISHEK SAHU");
+    utils.log(" To check updates: you may check on https://github.com/Serverx0/fca-abhi");
     return callback(null, api);
   } catch (error) {
     return callback(error);
@@ -344,7 +344,7 @@ async function login(cookie, options, callback) {
   
   const loginmafiya = () => {
     loginHelper(cookie, {
-        relogin: loginmafiya,
+        relogin: loginabhi,
       },
       (loginError, loginApi) => {
         if (loginError) {
